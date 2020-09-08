@@ -18,7 +18,7 @@ public class IntroToRandom {
 		
 		// Run this program and you will see that nextInt created 5 random integers which have been printed to the console
 		for (int i=0; i<5; i++) {
-			number = ran.nextInt();
+			number = ran.nextInt(8 - 1 + 1);
 			System.out.println(number);
 		}
 		// The range of numbers that an int variable can hold is very large (as you can see in the console).
@@ -31,7 +31,7 @@ public class IntroToRandom {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
 
 			// number = ran.nextInt(_____);
-			System.out.println(number);
+			System.out.println(ran.nextInt(8));
 			
 		}
 		
@@ -50,7 +50,7 @@ public class IntroToRandom {
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.
 			
 			// number = ran.nextInt(_____) + <lowest value>;
-			System.out.println(number);
+			System.out.println(ran.nextInt(8 - 1 + 1));
 			
 		}
 		// This time, all the values printed should be between 25 and 75.
